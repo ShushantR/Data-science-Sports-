@@ -1,0 +1,17 @@
+# Project Configuration
+
+paths:
+  raw_data: "data/raw/"
+  processed_data: "data/processed/"
+  models: "models/"
+  reports: "reports/figures/"
+
+eda:
+  missing_value_threshold: 0.05
+  correlation_threshold: 0.8
+
+modeling:
+  test_size: 0.2
+  random_state: 42
+  cv_folds: 5
+  target_column: "winner" # Target for IPL Winning Predictor
